@@ -13,6 +13,7 @@ const Home = () => {
   const history = useHistory();
   const [searchPhrase, setSearchPhrase] = useState('');
 
+
   const handleSearchPhraseChange = event => {
     setSearchPhrase(event.target.value);
   }
